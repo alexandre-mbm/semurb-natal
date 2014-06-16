@@ -1,4 +1,4 @@
-O programa está funcional mas o código precisa de refatoração antes de se atender a novas _issues_.
+O programa está funcional mas [o código precisa de refatoração](https://github.com/alexandre-mbm/semurb-natal/issues/1) antes de se atender a novas _issues_.
 
 ---
 
@@ -6,10 +6,11 @@ O programa está funcional mas o código precisa de refatoração antes de se at
 
 1. Facilitar mapeamento com dados oficiais em [Natal, RN](https://pt.wikipedia.org/wiki/Natal_%28Rio_Grande_do_Norte%29)
 
- [SEMURB](https://www.natal.rn.gov.br/semurb/paginas/ctd-106.html) é a "Secretaria de Meio Ambiente e Urbanismo" do município
+ [SEMURB](https://www.natal.rn.gov.br/semurb/paginas/ctd-106.html) é a "Secretaria de Meio Ambiente e Urbanismo" do município.
 
 1. Servir de modelo simples para trabalho com outras fontes de documentos e imagens que possam ser úteis em mapeamento OpenStreetMap. _Clone e fork!_<br>
-Interesses assemelhados:
+
+ Interesses assemelhados:
  - nighto/[calibracao-plantas-digitais-ipp](https://github.com/nighto/calibracao-plantas-digitais-ipp)
  - nighto/[calibracao-mapas-ibge](https://github.com/nighto/calibracao-mapas-ibge)
 
@@ -53,7 +54,7 @@ _Pull requests_ facilmente serão bem vindos. Especialmente de arquivos de [cali
 git add -f <nome>/<nome>.cal
 ```
 
-**Atenção!** Nesta primeira versão, no caso de um documento multipáginas, somente é considerada e convertida a primeira página.
+**Atenção!** Nesta primeira versão, [no caso de um documento multipáginas](https://github.com/alexandre-mbm/semurb-natal/issues/2), somente é considerada e convertida a primeira página.
 
 # Licença
 
