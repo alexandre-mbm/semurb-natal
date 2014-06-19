@@ -48,16 +48,12 @@ Help
 1. Faz-se download de novos documentos
 1. Converte-se em imagens algum documento já baixado
 
-_Pull requests_ facilmente serão bem vindos. Especialmente de arquivos de [calibração PicLayer](https://www.youtube.com/watch?v=Jn-2awm3bYU) `*.cal`. Observe que os diretórios são ignorados, então será preciso forçar a adição daqueles arquivos no _commit_:
+_Pull requests_ facilmente serão bem vindos. ~~Especialmente de arquivos de [calibração PicLayer](https://www.youtube.com/watch?v=Jn-2awm3bYU) `*.cal`~~. → **Leia sobre dados na seção [#Licença](#licença)** (abaixo).
 
-```bash
-git add -f <nome>/<nome>.cal
-```
-
-**Atenção!** Nesta primeira versão, [no caso de um documento multipáginas](https://github.com/alexandre-mbm/semurb-natal/issues/2), somente é considerada e convertida a primeira página.
+Atenção! Nesta primeira versão, [no caso de um documento multipáginas](https://github.com/alexandre-mbm/semurb-natal/issues/2), somente é considerada e convertida a primeira página.
 
 # Licença
 
 O semurb-natal é disponibilizado sob a [Expat License](LICENSE), também conhecida ambiguamente como "[MIT License](https://en.wikipedia.org/wiki/Expat_License)" — existe mais de uma "licença do MIT".
 
-Os dados externos são colhidos da SEMURB pelo próprio usuário e além disso são "dados abertos" segundo a [LAI — Lei de Acesso à Informação (lei 12.527, de novembro de 2011)](https://pt.wikipedia.org/wiki/Lei_de_acesso_%C3%A0_informa%C3%A7%C3%A3o).
+Os dados externos são colhidos da SEMURB pelo próprio usuário. Ele deve solicitar permissão para a utilização deles em seu projeto particular. Está **pendente** a solicitação e o recebimento de permissão para o aproveitamento dos dados em mapeamento OpenStreetMap. Por enquanto, você não deve usá-los no OpenStreetMap. Então não estão sendo aceitos _pull requests_ de arquivos `*.cal` ou `*.osm`.
